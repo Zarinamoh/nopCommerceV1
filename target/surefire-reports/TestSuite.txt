@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 63.655 sec <<< FAILURE! - in TestSuite
+loginTest(com.nopcommerce.testcases.TC_LoginTest_001)  Time elapsed: 11.042 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.nopcommerce.testcases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:40)
+
+loginTest(com.nopcommerce.testcases.TC_LoginDDT_002)  Time elapsed: 6.506 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.nopcommerce.testcases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:42)
+
+loginTest(com.nopcommerce.testcases.TC_LoginDDT_002)  Time elapsed: 6.618 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.nopcommerce.testcases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:42)
+
+loginTest(com.nopcommerce.testcases.TC_LoginDDT_002)  Time elapsed: 6.746 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.nopcommerce.testcases.TC_LoginDDT_002.loginTest(TC_LoginDDT_002.java:42)
+
